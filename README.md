@@ -26,7 +26,7 @@ cd Sanic_task
 0. Создайте файл `.env` с настройками (Референс `.env-example`)
 1. Выполните `docker-compose up` для создания контейнера вместе с postgres и nginx
 
-## ⚡ Запуск контейнера с Sanic приложением
+## ⚡ Запуск с помощью Dockerfile
 1. Выполните `docker build --tag sanic_task .`
 2. Выполните `docker run --detach sanic_task`
 
